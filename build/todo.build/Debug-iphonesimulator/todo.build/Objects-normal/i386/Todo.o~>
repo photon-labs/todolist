@@ -1,0 +1,9 @@
+In file included from /Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.m:9:
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.h:19: error: statically allocated instance of Objective-C class 'NSString'
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.h:23: error: can not use an object as parameter to a method
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.h:23: error: can not use an object as parameter to a method
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.h:23: error: property 'text' with 'retain' attribute must be of object type
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.m:14: error: type of property 'text' does not match type of ivar 'text'
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.m: In function '-[Todo initWithPrimaryKey:database:]':
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.m:35: error: incompatible type for argument 1 of 'setText:'
+/Users/brandontreb/Documents/Programming/iPhone/Tutorials/todo/Classes/Todo.m:37: error: incompatible type for argument 1 of 'setText:'
