@@ -13,6 +13,7 @@
     IBOutlet UIWindow *window;
     IBOutlet UINavigationController *navigationController;
     todoAppDelegate* todoObject;
+    todoAppDelegate* haiObject;
 
 }
 @property (nonatomic, retain) UIWindow *window;
