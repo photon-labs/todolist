@@ -23,6 +23,8 @@
 
 - (id)init {
 	if (self = [super init]) {
+        
+        self.todos = [[NSMutableArray alloc]init];
 		// 
 	}
 	return self;
@@ -37,6 +39,10 @@
 	// Configure and show the window
 	[window addSubview:[navigationController view]];
 	[window makeKeyAndVisible];
+    
+    
+    
+
 }
 
 // Creates a writable copy of the bundled default database in the application Documents directory.
@@ -85,7 +91,9 @@
                 // here will be in memory regardless of whether we use autorelease or release, because they are
                 // retained by the books array.
                 Todo *td = [[Todo alloc] initWithPrimaryKey:primaryKey database:database];
-                [todos addObject:td];
+                [self.todos addObject:td];
+                
+                NSLog(@"todoObject :%@", self.todos);
                 [td release];
             }
         }
@@ -98,7 +106,7 @@
         // Additional error handling, as appropriate...
     }
 	
-	NSLog([[NSString alloc] initWithFormat:@"size:%@",[[todos objectAtIndex:3] text]]);
+	//NSLog([[NSString alloc] initWithFormat:@"size:%@",[[todos objectAtIndex:3] text]]);
 }
 
 

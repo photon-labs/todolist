@@ -12,17 +12,14 @@
 
 
 @implementation RootViewController
-
+@synthesize todoObject;
 
 - (void)viewDidLoad {
 	// Add the following line if you want the list to be editable
 	// self.navigationItem.leftBarButtonItem = self.editButtonItem;
-}
--(void)applicationDidFinishLaunching:(UIApplication *)application{
-    [self createEditableCopyOfDatabaseIfNeeded];
-    [self initilizeDatabase];
-    [window addSubview:[navigationController view]];
-    [window makeKeyAndVisible];
+    self.title = @"TodoList";
+    
+    
 }
 
 
@@ -32,7 +29,10 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return 0;
+
+    todoAppDelegate* appDelegate = (todoAppDelegate*)[[UIApplication sharedApplication]delegate];
+    return appDelegate.todos.count;
+    
 }
 
 
@@ -45,9 +45,12 @@
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier];
 	}
    
-    NSString* str =[NSString stringWithFormat:@"%@",[todoObject.todos objectAtIndex:indexPath.row]];
-    NSLog(@"todoObject.todos objectAtIndex:indexPath.row] :%@ ",str);
-	// Set up the cell
+    todoAppDelegate* appDelegate = (todoAppDelegate*)[[UIApplication sharedApplication]delegate];
+    Todo* td =(Todo*)[appDelegate.todos objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = td.text;
+    
+
 	return cell;
 }
 

@@ -13,10 +13,9 @@
     IBOutlet UIWindow *window;
     IBOutlet UINavigationController *navigationController;
     todoAppDelegate* todoObject;
-    
 
 }
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) UINavigationController *navigationController;
-
+@property (nonatomic, retain)  todoAppDelegate* todoObject;
 @end
