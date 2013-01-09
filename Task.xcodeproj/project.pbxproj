@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41237AB167F303B00E22D74 /* archive_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41237A6167F303B00E22D74 /* archive_icon.png */; };
+		A41237AC167F303B00E22D74 /* completed_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41237A7167F303B00E22D74 /* completed_icon.png */; };
+		A41237AD167F303B00E22D74 /* create_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41237A8167F303B00E22D74 /* create_icon.png */; };
+		A41237AE167F303B00E22D74 /* pending_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41237A9167F303B00E22D74 /* pending_icon.png */; };
+		A41237AF167F303B00E22D74 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41237AA167F303B00E22D74 /* settings_icon.png */; };
+		A426332B169D646E00E589B2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A426332A169D646E00E589B2 /* libsqlite3.dylib */; };
+		A4263337169D6D7E00E589B2 /* ToDo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A4263336169D6D7E00E589B2 /* ToDo.sqlite */; };
+		A436015E1682DAD900DC264C /* TaskStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A436015D1682DAD900DC264C /* TaskStatusViewController.m */; };
+		A44118A6169461A800BA6819 /* ToDoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A44118A5169461A800BA6819 /* ToDoModel.m */; };
+		A44118B51694715A00BA6819 /* SharedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A44118B41694715A00BA6819 /* SharedObject.m */; };
+		A4484A62169AEC3C007EA1BF /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A4484A61169AEC3C007EA1BF /* DataBase.m */; };
+		A4484A7B169AF396007EA1BF /* Todo.png in Resources */ = {isa = PBXBuildFile; fileRef = A40DDB0F1682175E004663B9 /* Todo.png */; };
+		A48F9C6F1676F85A0058221D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48F9C6E1676F85A0058221D /* UIKit.framework */; };
+		A48F9C711676F85A0058221D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48F9C701676F85A0058221D /* Foundation.framework */; };
+		A48F9C731676F85A0058221D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48F9C721676F85A0058221D /* CoreGraphics.framework */; };
+		A48F9C751676F85A0058221D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48F9C741676F85A0058221D /* CoreData.framework */; };
+		A48F9C7B1676F85A0058221D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A48F9C791676F85A0058221D /* InfoPlist.strings */; };
+		A48F9C7D1676F85A0058221D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F9C7C1676F85A0058221D /* main.m */; };
+		A48F9C811676F85A0058221D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A48F9C801676F85A0058221D /* AppDelegate.m */; };
+		A4912C4516820D8000BB7C69 /* CompletedTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C3316820D8000BB7C69 /* CompletedTaskViewController.m */; };
+		A4912C4616820D8000BB7C69 /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C3616820D8000BB7C69 /* NewTaskViewController.m */; };
+		A4912C4716820D8000BB7C69 /* TaskDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C3A16820D8000BB7C69 /* TaskDetailsViewController.m */; };
+		A4912C4816820D8000BB7C69 /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C3C16820D8000BB7C69 /* TaskListViewController.m */; };
+		A4912C4916820D8000BB7C69 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C3E16820D8000BB7C69 /* DashBoardViewController.m */; };
+		A4912C4A16820D8000BB7C69 /* PendingTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C4116820D8000BB7C69 /* PendingTaskViewController.m */; };
+		A4912C4B16820D8000BB7C69 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4912C4416820D8000BB7C69 /* SettingsViewController.m */; };
+		A4EB1F9B1679EFA200861457 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EB1F9A1679EFA200861457 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40DDB0F1682175E004663B9 /* Todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Todo.png; path = ../Todo.png; sourceTree = "<group>"; };
+		A40DDB12168218C0004663B9 /* ToDOO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ToDOO.png; path = ../ToDOO.png; sourceTree = "<group>"; };
+		A41237A6167F303B00E22D74 /* archive_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = archive_icon.png; sourceTree = "<group>"; };
+		A41237A7167F303B00E22D74 /* completed_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completed_icon.png; sourceTree = "<group>"; };
+		A41237A8167F303B00E22D74 /* create_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_icon.png; sourceTree = "<group>"; };
+		A41237A9167F303B00E22D74 /* pending_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending_icon.png; sourceTree = "<group>"; };
+		A41237AA167F303B00E22D74 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
+		A426332A169D646E00E589B2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A4263336169D6D7E00E589B2 /* ToDo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ToDo.sqlite; sourceTree = SOURCE_ROOT; };
+		A436015C1682DAD900DC264C /* TaskStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskStatusViewController.h; sourceTree = "<group>"; };
+		A436015D1682DAD900DC264C /* TaskStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskStatusViewController.m; sourceTree = "<group>"; };
+		A44118A4169461A800BA6819 /* ToDoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoModel.h; sourceTree = "<group>"; };
+		A44118A5169461A800BA6819 /* ToDoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoModel.m; sourceTree = "<group>"; };
+		A44118B31694715A00BA6819 /* SharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedObject.h; sourceTree = "<group>"; };
+		A44118B41694715A00BA6819 /* SharedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedObject.m; sourceTree = "<group>"; };
+		A4484A60169AEC3C007EA1BF /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		A4484A61169AEC3C007EA1BF /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		A48F9C6A1676F85A0058221D /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48F9C6E1676F85A0058221D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A48F9C701676F85A0058221D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A48F9C721676F85A0058221D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A48F9C741676F85A0058221D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A48F9C781676F85A0058221D /* Task-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Task-Info.plist"; sourceTree = "<group>"; };
+		A48F9C7A1676F85A0058221D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A48F9C7C1676F85A0058221D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48F9C7E1676F85A0058221D /* Task-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Task-Prefix.pch"; sourceTree = "<group>"; };
+		A48F9C7F1676F85A0058221D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A48F9C801676F85A0058221D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4912C3216820D8000BB7C69 /* CompletedTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedTaskViewController.h; sourceTree = "<group>"; };
+		A4912C3316820D8000BB7C69 /* CompletedTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedTaskViewController.m; sourceTree = "<group>"; };
+		A4912C3516820D8000BB7C69 /* NewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTaskViewController.h; sourceTree = "<group>"; };
+		A4912C3616820D8000BB7C69 /* NewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTaskViewController.m; sourceTree = "<group>"; };
+		A4912C3916820D8000BB7C69 /* TaskDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailsViewController.h; sourceTree = "<group>"; };
+		A4912C3A16820D8000BB7C69 /* TaskDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsViewController.m; sourceTree = "<group>"; };
+		A4912C3B16820D8000BB7C69 /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
+		A4912C3C16820D8000BB7C69 /* TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
+		A4912C3D16820D8000BB7C69 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		A4912C3E16820D8000BB7C69 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		A4912C4016820D8000BB7C69 /* PendingTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingTaskViewController.h; sourceTree = "<group>"; };
+		A4912C4116820D8000BB7C69 /* PendingTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingTaskViewController.m; sourceTree = "<group>"; };
+		A4912C4316820D8000BB7C69 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A4912C4416820D8000BB7C69 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A4EB1F9A1679EFA200861457 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48F9C671676F85A0058221D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426332B169D646E00E589B2 /* libsqlite3.dylib in Frameworks */,
+				A4EB1F9B1679EFA200861457 /* QuartzCore.framework in Frameworks */,
+				A48F9C6F1676F85A0058221D /* UIKit.framework in Frameworks */,
+				A48F9C711676F85A0058221D /* Foundation.framework in Frameworks */,
+				A48F9C731676F85A0058221D /* CoreGraphics.framework in Frameworks */,
+				A48F9C751676F85A0058221D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41237A5167F303B00E22D74 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A40DDB0F1682175E004663B9 /* Todo.png */,
+				A40DDB12168218C0004663B9 /* ToDOO.png */,
+				A41237A6167F303B00E22D74 /* archive_icon.png */,
+				A41237A7167F303B00E22D74 /* completed_icon.png */,
+				A41237A8167F303B00E22D74 /* create_icon.png */,
+				A41237A9167F303B00E22D74 /* pending_icon.png */,
+				A41237AA167F303B00E22D74 /* settings_icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A44118A21694618900BA6819 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A44118A4169461A800BA6819 /* ToDoModel.h */,
+				A44118A5169461A800BA6819 /* ToDoModel.m */,
+				A44118B31694715A00BA6819 /* SharedObject.h */,
+				A44118B41694715A00BA6819 /* SharedObject.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		A4484A5F169AEC02007EA1BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4484A60169AEC3C007EA1BF /* DataBase.h */,
+				A4484A61169AEC3C007EA1BF /* DataBase.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A48F9C5F1676F85A0058221D = {
+			isa = PBXGroup;
+			children = (
+				A426332A169D646E00E589B2 /* libsqlite3.dylib */,
+				A4484A5F169AEC02007EA1BF /* Utilities */,
+				A4912C2F16820D8000BB7C69 /* Class */,
+				A41237A5167F303B00E22D74 /* Images */,
+				A48F9C761676F85A0058221D /* Task */,
+				A48F9C6D1676F85A0058221D /* Frameworks */,
+				A48F9C6B1676F85A0058221D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48F9C6B1676F85A0058221D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48F9C6A1676F85A0058221D /* Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48F9C6D1676F85A0058221D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4EB1F9A1679EFA200861457 /* QuartzCore.framework */,
+				A48F9C6E1676F85A0058221D /* UIKit.framework */,
+				A48F9C701676F85A0058221D /* Foundation.framework */,
+				A48F9C721676F85A0058221D /* CoreGraphics.framework */,
+				A48F9C741676F85A0058221D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A48F9C761676F85A0058221D /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				A48F9C7F1676F85A0058221D /* AppDelegate.h */,
+				A48F9C801676F85A0058221D /* AppDelegate.m */,
+				A48F9C771676F85A0058221D /* Supporting Files */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		A48F9C771676F85A0058221D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4263336169D6D7E00E589B2 /* ToDo.sqlite */,
+				A48F9C781676F85A0058221D /* Task-Info.plist */,
+				A48F9C791676F85A0058221D /* InfoPlist.strings */,
+				A48F9C7C1676F85A0058221D /* main.m */,
+				A48F9C7E1676F85A0058221D /* Task-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4912C2F16820D8000BB7C69 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A44118A21694618900BA6819 /* DataModel */,
+				A4912C3016820D8000BB7C69 /* DashBoard */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A4912C3016820D8000BB7C69 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C3116820D8000BB7C69 /* Completed Task */,
+				A4912C3416820D8000BB7C69 /* Create Task */,
+				A4912C3D16820D8000BB7C69 /* DashBoardViewController.h */,
+				A4912C3E16820D8000BB7C69 /* DashBoardViewController.m */,
+				A4912C3F16820D8000BB7C69 /* Pending Task */,
+				A4912C4216820D8000BB7C69 /* Settings */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		A4912C3116820D8000BB7C69 /* Completed Task */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C3216820D8000BB7C69 /* CompletedTaskViewController.h */,
+				A4912C3316820D8000BB7C69 /* CompletedTaskViewController.m */,
+			);
+			path = "Completed Task";
+			sourceTree = "<group>";
+		};
+		A4912C3416820D8000BB7C69 /* Create Task */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C3516820D8000BB7C69 /* NewTaskViewController.h */,
+				A4912C3616820D8000BB7C69 /* NewTaskViewController.m */,
+				A4912C3716820D8000BB7C69 /* Task List */,
+			);
+			path = "Create Task";
+			sourceTree = "<group>";
+		};
+		A4912C3716820D8000BB7C69 /* Task List */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C3B16820D8000BB7C69 /* TaskListViewController.h */,
+				A4912C3C16820D8000BB7C69 /* TaskListViewController.m */,
+				A4912C3816820D8000BB7C69 /* Task Datails */,
+			);
+			path = "Task List";
+			sourceTree = "<group>";
+		};
+		A4912C3816820D8000BB7C69 /* Task Datails */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C3916820D8000BB7C69 /* TaskDetailsViewController.h */,
+				A4912C3A16820D8000BB7C69 /* TaskDetailsViewController.m */,
+			);
+			path = "Task Datails";
+			sourceTree = "<group>";
+		};
+		A4912C3F16820D8000BB7C69 /* Pending Task */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C4016820D8000BB7C69 /* PendingTaskViewController.h */,
+				A4912C4116820D8000BB7C69 /* PendingTaskViewController.m */,
+				A436015C1682DAD900DC264C /* TaskStatusViewController.h */,
+				A436015D1682DAD900DC264C /* TaskStatusViewController.m */,
+			);
+			path = "Pending Task";
+			sourceTree = "<group>";
+		};
+		A4912C4216820D8000BB7C69 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A4912C4316820D8000BB7C69 /* SettingsViewController.h */,
+				A4912C4416820D8000BB7C69 /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48F9C691676F85A0058221D /* Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48F9C931676F85B0058221D /* Build configuration list for PBXNativeTarget "Task" */;
+			buildPhases = (
+				A48F9C661676F85A0058221D /* Sources */,
+				A48F9C671676F85A0058221D /* Frameworks */,
+				A48F9C681676F85A0058221D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Task;
+			productName = Task;
+			productReference = A48F9C6A1676F85A0058221D /* Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48F9C611676F85A0058221D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Nagarajan;
+			};
+			buildConfigurationList = A48F9C641676F85A0058221D /* Build configuration list for PBXProject "Task" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A48F9C5F1676F85A0058221D;
+			productRefGroup = A48F9C6B1676F85A0058221D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48F9C691676F85A0058221D /* Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48F9C681676F85A0058221D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F9C7B1676F85A0058221D /* InfoPlist.strings in Resources */,
+				A41237AB167F303B00E22D74 /* archive_icon.png in Resources */,
+				A41237AC167F303B00E22D74 /* completed_icon.png in Resources */,
+				A41237AD167F303B00E22D74 /* create_icon.png in Resources */,
+				A41237AE167F303B00E22D74 /* pending_icon.png in Resources */,
+				A41237AF167F303B00E22D74 /* settings_icon.png in Resources */,
+				A4484A7B169AF396007EA1BF /* Todo.png in Resources */,
+				A4263337169D6D7E00E589B2 /* ToDo.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48F9C661676F85A0058221D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48F9C7D1676F85A0058221D /* main.m in Sources */,
+				A48F9C811676F85A0058221D /* AppDelegate.m in Sources */,
+				A4912C4516820D8000BB7C69 /* CompletedTaskViewController.m in Sources */,
+				A4912C4616820D8000BB7C69 /* NewTaskViewController.m in Sources */,
+				A4912C4716820D8000BB7C69 /* TaskDetailsViewController.m in Sources */,
+				A4912C4816820D8000BB7C69 /* TaskListViewController.m in Sources */,
+				A4912C4916820D8000BB7C69 /* DashBoardViewController.m in Sources */,
+				A4912C4A16820D8000BB7C69 /* PendingTaskViewController.m in Sources */,
+				A4912C4B16820D8000BB7C69 /* SettingsViewController.m in Sources */,
+				A436015E1682DAD900DC264C /* TaskStatusViewController.m in Sources */,
+				A44118A6169461A800BA6819 /* ToDoModel.m in Sources */,
+				A44118B51694715A00BA6819 /* SharedObject.m in Sources */,
+				A4484A62169AEC3C007EA1BF /* DataBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A48F9C791676F85A0058221D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48F9C7A1676F85A0058221D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48F9C911676F85B0058221D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A48F9C921676F85B0058221D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48F9C941676F85B0058221D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Task/Task-Prefix.pch";
+				INFOPLIST_FILE = "Task/Task-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A48F9C951676F85B0058221D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Task/Task-Prefix.pch";
+				INFOPLIST_FILE = "Task/Task-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48F9C641676F85A0058221D /* Build configuration list for PBXProject "Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F9C911676F85B0058221D /* Debug */,
+				A48F9C921676F85B0058221D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48F9C931676F85B0058221D /* Build configuration list for PBXNativeTarget "Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48F9C941676F85B0058221D /* Debug */,
+				A48F9C951676F85B0058221D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48F9C611676F85A0058221D /* Project object */;
+}
