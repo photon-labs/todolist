@@ -30,6 +30,7 @@
         backButton = nil;
         toolBar = nil;
         completedList = nil;
+        
     }
     return self;
 }
